@@ -1,3 +1,3 @@
-export default function Vue(options) {
-  console.log('vue');
-}
+import Vue from './instance/index';
+
+export default Vue;

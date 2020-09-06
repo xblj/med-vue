@@ -11,7 +11,14 @@
 <body>
   <div>vue</div>
   <script>
-    Vue()
+    const vm = new Vue({
+      data: {
+        name: 'xb'
+      }
+    })
+    vm._data.name = 'hah'
+
+    console.log(vm);
   </script>
 </body>
 
